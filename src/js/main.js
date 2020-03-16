@@ -1,7 +1,7 @@
 const tacoButton = document.querySelector(".taco-button");
 
 const getARandomTaco = () => {
-    fetch('http://taco-randomizer.herokuapp.com/random/')
+    fetch('https://taco-randomizer.herokuapp.com/random/')
         .then(response => response.json())
         .then(taco => updateHtmlWIthTaco(taco));
 }
