@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.ingredients{
+    grid-row-start: 1;
+    grid-row-end: 2;
+ }
+
+.taco{
+    display: grid;
+    grid-template-rows: 20px auto;
+    grid-template-columns: auto 20px;
+}
+
+.taco__title{
+    grid-row-start: 0;
+    grid-row-end: 1;
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.taco__remove-button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
