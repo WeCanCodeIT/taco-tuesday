@@ -9,7 +9,8 @@
  }
 .tacos{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: auto;
 }
 .taco{
     display: grid;
